@@ -1,4 +1,22 @@
-package com.app.mfi2.user;
+package com.app.mfi2.user.model;
 
-public class Client {
+
+import com.app.mfi2.user.Role;
+import jakarta.persistence.Entity;
+import jakarta.persistence.PrimaryKeyJoinColumn;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
+
+@EqualsAndHashCode(callSuper = true)
+@Entity
+@Data
+@SuperBuilder
+@NoArgsConstructor
+@PrimaryKeyJoinColumn(name = "id")
+public class Client extends User {
+    public Client(String firstname, String lastname, String email, String password) {
+        super(firstname, lastname, email, password, Role.CLIENT);
+    }
 }

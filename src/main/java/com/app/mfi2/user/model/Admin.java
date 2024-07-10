@@ -1,5 +1,6 @@
-package com.app.mfi2.user;
+package com.app.mfi2.user.model;
 
+import com.app.mfi2.user.Role;
 import jakarta.persistence.Entity;
 import jakarta.persistence.PrimaryKeyJoinColumn;
 import lombok.Data;
@@ -14,7 +15,7 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @PrimaryKeyJoinColumn(name = "id")
 public class Admin extends User {
-    public Admin(String firstname, String lastname, String email, String password, String adminSpecificInfo) {
+    public Admin(String firstname, String lastname, String email, String password) {
         super(firstname, lastname, email, password, Role.ADMIN);
     }
 }

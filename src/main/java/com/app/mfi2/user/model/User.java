@@ -1,8 +1,7 @@
-package com.app.mfi2.user;
+package com.app.mfi2.user.model;
 
+import com.app.mfi2.user.Role;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
@@ -19,7 +18,7 @@ import java.util.List;
 @Entity
 @Table(name = "_user")
 @Inheritance(strategy = InheritanceType.JOINED)
-public class User implements UserDetails {
+abstract public class User implements UserDetails {
     @Id
     @GeneratedValue
     private Long id;

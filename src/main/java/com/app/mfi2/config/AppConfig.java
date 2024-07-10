@@ -1,6 +1,6 @@
 package com.app.mfi2.config;
 
-import com.app.lologin.user.UserRepository;
+import com.app.mfi2.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

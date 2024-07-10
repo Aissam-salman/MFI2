@@ -1,9 +1,11 @@
 package com.app.mfi2.auth;
 
-import com.app.lologin.config.JwtService;
-import com.app.lologin.user.Role;
-import com.app.lologin.user.User;
-import com.app.lologin.user.UserRepository;
+import com.app.mfi2.config.JwtService;
+import com.app.mfi2.user.model.Admin;
+import com.app.mfi2.user.model.Client;
+import com.app.mfi2.user.model.Producer;
+import com.app.mfi2.user.model.User;
+import com.app.mfi2.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -22,15 +24,33 @@ public class AuthService {
     private final AuthenticationManager authenticationManager;
 
     public AuthentificationResponse register(RegisterRequest request) throws Exception {
-        var user = User.builder()
-                .firstname(request.getFirstname())
-                .lastname(request.getLastname())
-                .email(request.getEmail())
-                .password(passwordEncoder.encode(request.getPassword()))
-                .role(Role.USER)
-                .build();
+        User user = switch (request.getRole()) {
+            case ADMIN -> Admin.builder()
+                    .firstname(request.getFirstname())
+                    .lastname(request.getLastname())
+                    .email(request.getEmail())
+                    .password(passwordEncoder.encode(request.getPassword()))
+                    .build();
+            case CLIENT -> Client.builder()
+                    .firstname(request.getFirstname())
+                    .lastname(request.getLastname())
+                    .email(request.getEmail())
+                    .password(passwordEncoder.encode(request.getPassword()))
+                    .build();
+            case PRODUCER -> Producer.builder()
+                    .firstname(request.getFirstname())
+                    .lastname(request.getLastname())
+                    .email(request.getEmail())
+                    .password(passwordEncoder.encode(request.getPassword()))
+                    .build();
+        };
+
+        assert user != null;
+
         userRepository.save(user);
-        var jwtToken = jwtService.generateToken(new HashMap<>(),user);
+
+        var jwtToken = jwtService.generateToken(new HashMap<>(), user);
+
         return AuthentificationResponse.builder()
                 .token(jwtToken)
                 .build();
