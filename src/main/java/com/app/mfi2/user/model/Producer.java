@@ -15,7 +15,4 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @PrimaryKeyJoinColumn(name = "id")
 public class Producer extends User {
-    public Producer(String firstname, String lastname, String email, String password) {
-        super(firstname, lastname, email, password, Role.PRODUCER);
-    }
 }

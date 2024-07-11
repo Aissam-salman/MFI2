@@ -1,4 +1,4 @@
-package com.app.mfi2.auth;
+package com.app.mfi2.auth.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

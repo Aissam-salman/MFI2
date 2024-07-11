@@ -16,7 +16,4 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @PrimaryKeyJoinColumn(name = "id")
 public class Client extends User {
-    public Client(String firstname, String lastname, String email, String password) {
-        super(firstname, lastname, email, password, Role.CLIENT);
-    }
 }

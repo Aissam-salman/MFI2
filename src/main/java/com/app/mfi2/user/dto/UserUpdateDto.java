@@ -1,6 +1,6 @@
-package com.app.mfi2.auth;
+package com.app.mfi2.user.dto;
 
-import com.app.mfi2.user.Role;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,10 +10,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class RegisterRequest {
+public class UserUpdateDto {
     private String firstname;
     private String lastname;
     private String email;
     private String password;
-    private Role role;
 }

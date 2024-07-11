@@ -23,8 +23,8 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .csrf(AbstractHttpConfigurer::disable)
-                .authorizeHttpRequests( auth -> {
-                    auth.requestMatchers("/api/v1/auth/**").permitAll();
+                .authorizeHttpRequests(auth -> {
+                    auth.requestMatchers("/api/v1/auth/**","/**").permitAll();
                     auth.requestMatchers("/api/v1/client/**").hasRole("CLIENT");
                     auth.requestMatchers("/api/v1/admin/**").hasRole("ADMIN");
                     auth.requestMatchers("/api/v1/producer/**").hasRole("PRODUCER");
@@ -34,10 +34,14 @@ public class SecurityConfig {
                 })
                 .authenticationProvider(authenticationProvider)
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
-        http.formLogin(AbstractHttpConfigurer::disable)
-                .httpBasic(Customizer.withDefaults());;
-
+        http.httpBasic(Customizer.withDefaults());
+        
+        http
+            .authorizeHttpRequests(authorizeRequests -> {
+              authorizeRequests.requestMatchers("/swagger-ui/**", "/v3/api-docs/**").permitAll();
+            });
 
         return http.build();
     }
+    
 }
