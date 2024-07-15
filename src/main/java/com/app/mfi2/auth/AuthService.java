@@ -34,6 +34,10 @@ public class AuthService {
     private final ProducerRepository producerRepository;
 
     public AuthentificationResponse register(RegisterRequest request) throws Exception {
+        if (request.getRole() == null) {
+            return null;
+        }
+
         User user = switch (request.getRole()) {
             case ADMIN -> Admin.builder()
                     .firstname(request.getFirstname())
@@ -55,6 +59,7 @@ public class AuthService {
                     .email(request.getEmail())
                     .password(passwordEncoder.encode(request.getPassword()))
                     .role(request.getRole())
+                    .siret(request.getSiret())
                     .build();
         };
 

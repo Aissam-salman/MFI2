@@ -1,0 +1,7 @@
+2024-07-15 08:18:04 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 39535 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-15 08:18:04 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-15 08:18:04 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-15 08:18:07 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-15 08:18:08 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.181 seconds (process running for 4.734)
+2024-07-15 08:18:08 INFO  com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-15 08:18:09 INFO  com.app.mfi2.fixture.UserInit - Registered user successfully

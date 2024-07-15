@@ -1,0 +1,1417 @@
+2024-07-13 23:09:34 - Starting Mfi2Application using Java 17.0.11 with PID 4972 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:09:34 - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:09:34 - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:09:34 - There are already Docker Compose services running, skipping startup
+2024-07-13 23:09:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:09:34 - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:09:34 - Tomcat initialized with port 8080 (http)
+2024-07-13 23:09:34 - Starting service [Tomcat]
+2024-07-13 23:09:34 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:09:34 - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:09:34 - Root WebApplicationContext: initialization completed in 268 ms
+2024-07-13 23:09:34 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:09:34 - HHH000026: Second-level cache disabled
+2024-07-13 23:09:34 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:09:34 - HikariPool-2 - Starting...
+2024-07-13 23:09:34 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@128cdc5b
+2024-07-13 23:09:34 - HikariPool-2 - Start completed.
+2024-07-13 23:09:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:09:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:09:34 - relation "admin" does not exist, skipping
+2024-07-13 23:09:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:09:34 - relation "client" does not exist, skipping
+2024-07-13 23:09:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:09:34 - relation "producer" does not exist, skipping
+2024-07-13 23:09:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:09:34 - table "_user" does not exist, skipping
+2024-07-13 23:09:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:09:34 - table "admin" does not exist, skipping
+2024-07-13 23:09:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:09:34 - table "client" does not exist, skipping
+2024-07-13 23:09:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:09:34 - table "producer" does not exist, skipping
+2024-07-13 23:09:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:09:34 - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:09:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:09:34 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:09:34 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:09:34 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:09:35 - LiveReload server is running on port 35729
+2024-07-13 23:09:35 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:09:35 - Started Mfi2Application in 1.09 seconds (process running for 99.488)
+2024-07-13 23:09:35 - Condition evaluation unchanged
+2024-07-13 23:10:57 - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-07-13 23:10:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:10:57 - HikariPool-2 - Shutdown initiated...
+2024-07-13 23:10:57 - HikariPool-2 - Shutdown completed.
+2024-07-13 23:10:57 - Starting Mfi2Application using Java 17.0.11 with PID 4972 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:10:57 - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:10:57 - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:10:57 - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:10:57 - There are already Docker Compose services running, skipping startup
+2024-07-13 23:10:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:10:58 - Finished Spring Data repository scanning in 8 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:10:58 - Tomcat initialized with port 8080 (http)
+2024-07-13 23:10:58 - Starting service [Tomcat]
+2024-07-13 23:10:58 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:10:58 - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:10:58 - Root WebApplicationContext: initialization completed in 230 ms
+2024-07-13 23:10:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:10:58 - HHH000026: Second-level cache disabled
+2024-07-13 23:10:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:10:58 - HikariPool-3 - Starting...
+2024-07-13 23:10:58 - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@70399c2e
+2024-07-13 23:10:58 - HikariPool-3 - Start completed.
+2024-07-13 23:10:58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:10:58 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:10:58 - relation "admin" does not exist, skipping
+2024-07-13 23:10:58 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:10:58 - relation "client" does not exist, skipping
+2024-07-13 23:10:58 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:10:58 - relation "producer" does not exist, skipping
+2024-07-13 23:10:58 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:10:58 - table "_user" does not exist, skipping
+2024-07-13 23:10:58 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:10:58 - table "admin" does not exist, skipping
+2024-07-13 23:10:58 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:10:58 - table "client" does not exist, skipping
+2024-07-13 23:10:58 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:10:58 - table "producer" does not exist, skipping
+2024-07-13 23:10:58 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:10:58 - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:10:58 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:10:58 - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:10:58 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:10:58 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:10:58 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:10:58 - LiveReload server is running on port 35729
+2024-07-13 23:10:58 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:10:58 - Started Mfi2Application in 1.042 seconds (process running for 183.157)
+2024-07-13 23:10:59 - Registered user successfully
+2024-07-13 23:10:59 - Condition evaluation unchanged
+2024-07-13 23:11:36 - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-07-13 23:11:36 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:11:36 - HikariPool-3 - Shutdown initiated...
+2024-07-13 23:11:36 - HikariPool-3 - Shutdown completed.
+2024-07-13 23:11:36 - Starting Mfi2Application using Java 17.0.11 with PID 4972 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:11:36 - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:11:36 - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:11:36 - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:11:36 - There are already Docker Compose services running, skipping startup
+2024-07-13 23:11:36 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:11:36 - Finished Spring Data repository scanning in 13 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:11:36 - Tomcat initialized with port 8080 (http)
+2024-07-13 23:11:36 - Starting service [Tomcat]
+2024-07-13 23:11:36 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:11:36 - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:11:36 - Root WebApplicationContext: initialization completed in 233 ms
+2024-07-13 23:11:36 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:11:36 - HHH000026: Second-level cache disabled
+2024-07-13 23:11:36 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:11:36 - HikariPool-4 - Starting...
+2024-07-13 23:11:36 - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@3ebf2bda
+2024-07-13 23:11:36 - HikariPool-4 - Start completed.
+2024-07-13 23:11:36 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:11:36 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:11:36 - relation "admin" does not exist, skipping
+2024-07-13 23:11:36 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:11:36 - relation "client" does not exist, skipping
+2024-07-13 23:11:36 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:11:36 - relation "producer" does not exist, skipping
+2024-07-13 23:11:36 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:11:36 - table "_user" does not exist, skipping
+2024-07-13 23:11:36 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:11:36 - table "admin" does not exist, skipping
+2024-07-13 23:11:36 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:11:36 - table "client" does not exist, skipping
+2024-07-13 23:11:36 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:11:36 - table "producer" does not exist, skipping
+2024-07-13 23:11:36 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:11:36 - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:11:36 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:11:36 - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:11:36 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:11:36 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:11:37 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:11:37 - LiveReload server is running on port 35729
+2024-07-13 23:11:37 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:11:37 - Started Mfi2Application in 0.85 seconds (process running for 221.531)
+2024-07-13 23:11:37 - Registered user successfully
+2024-07-13 23:11:37 - Condition evaluation unchanged
+2024-07-13 23:20:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:20:04 - HikariPool-4 - Shutdown initiated...
+2024-07-13 23:20:04 - HikariPool-4 - Shutdown completed.
+2024-07-13 23:20:08 - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:20:08 - Starting Mfi2Application using Java 17.0.11 with PID 8086 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:20:08 - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:20:08 - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:20:09 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:20:09 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:20:09 - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:20:16 - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:20:16 - Starting Mfi2Application using Java 17.0.11 with PID 8369 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:20:16 - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:20:16 - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:20:16 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:20:16 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:20:17 - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:20:17 - There are already Docker Compose services running, skipping startup
+2024-07-13 23:20:18 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:20:18 - Finished Spring Data repository scanning in 41 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:20:18 - Tomcat initialized with port 8080 (http)
+2024-07-13 23:20:18 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:20:18 - Starting service [Tomcat]
+2024-07-13 23:20:18 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:20:18 - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:20:18 - Root WebApplicationContext: initialization completed in 1160 ms
+2024-07-13 23:20:18 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:20:18 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:20:18 - HHH000026: Second-level cache disabled
+2024-07-13 23:20:19 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:20:19 - HikariPool-1 - Starting...
+2024-07-13 23:20:19 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45e6ad44
+2024-07-13 23:20:19 - HikariPool-1 - Start completed.
+2024-07-13 23:20:19 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:20:19 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:19 - relation "admin" does not exist, skipping
+2024-07-13 23:20:19 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:19 - relation "client" does not exist, skipping
+2024-07-13 23:20:19 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:19 - relation "producer" does not exist, skipping
+2024-07-13 23:20:19 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:19 - table "_user" does not exist, skipping
+2024-07-13 23:20:19 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:19 - table "admin" does not exist, skipping
+2024-07-13 23:20:19 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:19 - table "client" does not exist, skipping
+2024-07-13 23:20:19 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:19 - table "producer" does not exist, skipping
+2024-07-13 23:20:19 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:19 - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:20:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:20:20 - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:20:20 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:20:20 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:20:20 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userInit' defined in file [/home/salman/IdeaProjects/MFI2/build/classes/java/main/com/app/mfi2/fixture/UserInit.class]: null
+2024-07-13 23:20:20 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:20:20 - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:20:20 - HikariPool-1 - Shutdown completed.
+2024-07-13 23:20:20 - Stopping service [Tomcat]
+2024-07-13 23:20:20 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-13 23:20:20 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userInit' defined in file [/home/salman/IdeaProjects/MFI2/build/classes/java/main/com/app/mfi2/fixture/UserInit.class]: null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.mfi2.Mfi2Application.main(Mfi2Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.ExceptionInInitializerError: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:111)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	... 24 common frames omitted
+Caused by: java.lang.ClassCastException: class ch.qos.logback.classic.Logger cannot be cast to class org.apache.logging.log4j.Logger (ch.qos.logback.classic.Logger and org.apache.logging.log4j.Logger are in unnamed module of loader 'app')
+	at com.app.mfi2.fixture.UserInit.<clinit>(UserInit.java:23)
+	... 32 common frames omitted
+2024-07-13 23:20:29 - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:20:29 - Starting Mfi2Application using Java 17.0.11 with PID 8721 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:20:29 - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:20:29 - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:20:29 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:20:29 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:20:29 - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:20:29 - There are already Docker Compose services running, skipping startup
+2024-07-13 23:20:30 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:20:30 - Finished Spring Data repository scanning in 41 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:20:31 - Tomcat initialized with port 8080 (http)
+2024-07-13 23:20:31 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:20:31 - Starting service [Tomcat]
+2024-07-13 23:20:31 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:20:31 - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:20:31 - Root WebApplicationContext: initialization completed in 1175 ms
+2024-07-13 23:20:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:20:31 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:20:31 - HHH000026: Second-level cache disabled
+2024-07-13 23:20:31 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:20:31 - HikariPool-1 - Starting...
+2024-07-13 23:20:31 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23423be0
+2024-07-13 23:20:31 - HikariPool-1 - Start completed.
+2024-07-13 23:20:32 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:20:32 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:32 - relation "admin" does not exist, skipping
+2024-07-13 23:20:32 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:32 - relation "client" does not exist, skipping
+2024-07-13 23:20:32 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:32 - relation "producer" does not exist, skipping
+2024-07-13 23:20:32 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:32 - table "_user" does not exist, skipping
+2024-07-13 23:20:32 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:32 - table "admin" does not exist, skipping
+2024-07-13 23:20:32 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:32 - table "client" does not exist, skipping
+2024-07-13 23:20:32 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:32 - table "producer" does not exist, skipping
+2024-07-13 23:20:32 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:20:32 - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:20:32 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:20:32 - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:20:32 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:20:32 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:20:32 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userInit' defined in file [/home/salman/IdeaProjects/MFI2/build/classes/java/main/com/app/mfi2/fixture/UserInit.class]: null
+2024-07-13 23:20:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:20:32 - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:20:32 - HikariPool-1 - Shutdown completed.
+2024-07-13 23:20:32 - Stopping service [Tomcat]
+2024-07-13 23:20:32 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-13 23:20:32 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userInit' defined in file [/home/salman/IdeaProjects/MFI2/build/classes/java/main/com/app/mfi2/fixture/UserInit.class]: null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.mfi2.Mfi2Application.main(Mfi2Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.ExceptionInInitializerError: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:111)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	... 24 common frames omitted
+Caused by: java.lang.ClassCastException: class ch.qos.logback.classic.Logger cannot be cast to class org.apache.logging.log4j.Logger (ch.qos.logback.classic.Logger and org.apache.logging.log4j.Logger are in unnamed module of loader 'app')
+	at com.app.mfi2.fixture.UserInit.<clinit>(UserInit.java:23)
+	... 32 common frames omitted
+2024-07-13 23:22:31 - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:22:31 - Starting Mfi2Application using Java 17.0.11 with PID 9148 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:22:31 - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:22:31 - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:22:31 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:22:31 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:22:31 - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:22:32 - There are already Docker Compose services running, skipping startup
+2024-07-13 23:22:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:22:32 - Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:22:33 - Tomcat initialized with port 8080 (http)
+2024-07-13 23:22:33 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:22:33 - Starting service [Tomcat]
+2024-07-13 23:22:33 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:22:33 - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:22:33 - Root WebApplicationContext: initialization completed in 1072 ms
+2024-07-13 23:22:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:22:33 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:22:33 - HHH000026: Second-level cache disabled
+2024-07-13 23:22:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:22:33 - HikariPool-1 - Starting...
+2024-07-13 23:22:33 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@33d18947
+2024-07-13 23:22:33 - HikariPool-1 - Start completed.
+2024-07-13 23:22:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:22:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:22:34 - relation "admin" does not exist, skipping
+2024-07-13 23:22:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:22:34 - relation "client" does not exist, skipping
+2024-07-13 23:22:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:22:34 - relation "producer" does not exist, skipping
+2024-07-13 23:22:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:22:34 - table "_user" does not exist, skipping
+2024-07-13 23:22:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:22:34 - table "admin" does not exist, skipping
+2024-07-13 23:22:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:22:34 - table "client" does not exist, skipping
+2024-07-13 23:22:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:22:34 - table "producer" does not exist, skipping
+2024-07-13 23:22:34 - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:22:34 - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:22:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:22:34 - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:22:34 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:22:34 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:22:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:22:35 - LiveReload server is running on port 35729
+2024-07-13 23:22:35 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:22:35 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:22:35 - Started Mfi2Application in 4.111 seconds (process running for 4.793)
+2024-07-13 23:22:35 - Starting data initialization...
+2024-07-13 23:22:35 - Registered user successfully
+2024-07-13 23:24:28 - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-07-13 23:24:28 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:24:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:24:28 - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:24:28 - HikariPool-1 - Shutdown completed.
+2024-07-13 23:24:28 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 9148 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:24:28 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:24:28 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:24:28 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:24:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:24:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:24:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:24:28 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:24:28 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:24:28 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:24:28 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:24:28 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 268 ms
+2024-07-13 23:24:28 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:24:28 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:24:28 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:24:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-07-13 23:24:28 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@34a70cc1
+2024-07-13 23:24:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-07-13 23:24:28 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:24:28 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:24:28 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:24:28 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:24:28 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:24:28 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:24:29 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:24:29 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:24:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:24:29 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 0.94 seconds (process running for 118.381)
+2024-07-13 23:24:29 INFO  com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:24:29 INFO  com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:24:29 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-07-13 23:26:00 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:26:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-07-13 23:26:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+23:26:02 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+23:26:02 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 10138 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+23:26:02 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+23:26:02 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23:26:02 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23:26:02 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+23:26:03 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+23:26:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:26:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+23:26:04 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:26:04 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:26:04 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:26:04 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+23:26:04 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:26:04 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1056 ms
+23:26:04 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:26:04 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+23:26:04 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+23:26:04 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+23:26:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:26:04 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70968ae5
+23:26:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:26:05 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:26:05 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+23:26:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:26:05 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+23:26:05 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+23:26:05 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:26:06 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:26:06 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:26:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+23:26:06 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.017 seconds (process running for 4.55)
+23:26:06 INFO  com.app.mfi2.fixture.UserInit - Starting data initialization...
+23:26:06 INFO  com.app.mfi2.fixture.UserInit - Registered user successfully
+23:27:33 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:27:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:27:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:27:35 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+23:27:35 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 10669 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+23:27:35 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+23:27:35 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+23:27:35 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23:27:35 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23:27:35 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+23:27:36 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+23:27:36 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:27:36 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 4 JPA repository interfaces.
+23:27:37 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:27:37 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:27:37 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:27:37 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+23:27:37 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:27:37 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1128 ms
+23:27:37 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:27:37 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+23:27:37 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+23:27:37 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+23:27:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:27:37 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@673934f2
+23:27:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:27:38 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:27:38 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+23:27:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:27:38 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+23:27:38 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+23:27:38 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+23:27:39 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:27:39 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:27:39 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:27:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+23:27:39 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.107 seconds (process running for 4.589)
+23:27:39 INFO  com.app.mfi2.fixture.UserInit - Starting data initialization...
+23:27:39 INFO  com.app.mfi2.fixture.UserInit - Registered user successfully
+23:29:31 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:29:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:29:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:29:33 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+23:29:33 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 11202 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+23:29:33 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+23:29:33 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+23:29:33 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23:29:33 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23:29:33 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+23:29:33 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+23:29:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:29:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 4 JPA repository interfaces.
+23:29:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:29:34 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:29:34 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:29:34 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+23:29:34 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:29:34 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1138 ms
+23:29:35 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:29:35 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+23:29:35 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+23:29:35 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+23:29:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:29:35 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71090096
+23:29:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:29:36 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:29:36 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+23:29:36 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:29:36 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+23:29:36 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+23:29:36 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+23:29:36 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:29:37 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:29:37 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:29:37 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+23:29:37 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.123 seconds (process running for 4.658)
+23:29:37 INFO  com.app.mfi2.fixture.UserInit - Starting data initialization...
+23:29:37 INFO  com.app.mfi2.fixture.UserInit - Registered user successfully
+23:30:47 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+23:30:47 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+23:30:47 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:30:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:30:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-13 23:30:47 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 11202 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:30:47 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:30:47 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:30:47 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:30:47 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:30:48 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:30:48 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:30:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:30:48 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:30:48 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:30:48 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:30:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:30:48 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 260 ms
+2024-07-13 23:30:48 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:30:48 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:30:48 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:30:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-07-13 23:30:48 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@33ce72ac
+2024-07-13 23:30:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-07-13 23:30:48 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:48 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:30:48 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:30:48 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:30:48 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:30:48 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:30:48 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:30:48 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:30:48 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:30:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:30:48 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 0.933 seconds (process running for 76.166)
+2024-07-13 23:30:48 INFO  com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:30:48 INFO  com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:30:48 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-07-13 23:30:50 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:30:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-07-13 23:30:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-07-13 23:30:51 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:30:51 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 11998 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:30:51 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:30:51 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:30:52 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:30:52 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:30:52 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:30:52 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:30:53 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:30:53 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:30:53 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:30:53 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:30:53 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:30:53 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:30:53 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:30:53 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1117 ms
+2024-07-13 23:30:53 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:30:53 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:30:53 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:30:53 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:30:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-13 23:30:54 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1890afea
+2024-07-13 23:30:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-13 23:30:54 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:30:54 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:30:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:30:55 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:30:55 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:30:55 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:30:55 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:30:55 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:30:55 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:30:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:30:55 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.278 seconds (process running for 4.788)
+2024-07-13 23:30:55 INFO  com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:30:56 INFO  com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:31:41 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-07-13 23:31:41 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:31:41 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:31:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:31:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:31:41 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 11998 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+23:31:41 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+23:31:41 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+23:31:41 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+23:31:41 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+23:31:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:31:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 4 JPA repository interfaces.
+23:31:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:31:41 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:31:41 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:31:41 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+23:31:41 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:31:41 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 266 ms
+23:31:41 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:31:41 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+23:31:41 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+23:31:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+23:31:41 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5d4efb13
+23:31:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+23:31:41 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+23:31:41 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+23:31:42 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+23:31:42 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:31:42 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+23:31:42 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+23:31:42 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+23:31:42 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:31:42 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+23:31:42 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:31:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+23:31:42 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 0.939 seconds (process running for 51.269)
+23:31:42 INFO  com.app.mfi2.fixture.UserInit - Starting data initialization...
+23:31:42 INFO  com.app.mfi2.fixture.UserInit - Registered user successfully
+23:31:42 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+23:33:02 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+23:33:02 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+23:33:02 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:33:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+23:33:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-07-13 23:33:02 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 11998 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:33:02 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:33:02 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:33:02 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:33:03 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:33:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:33:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:33:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:33:03 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:33:03 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:33:03 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:33:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:33:03 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 228 ms
+2024-07-13 23:33:03 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:33:03 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:33:03 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:33:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2024-07-13 23:33:03 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@46262a5f
+2024-07-13 23:33:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2024-07-13 23:33:03 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:03 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:33:03 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:33:03 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:33:03 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:33:03 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:33:03 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:33:03 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:33:03 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:33:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:33:03 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 0.844 seconds (process running for 132.724)
+2024-07-13 23:33:03 INFO  com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:33:04 INFO  com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:33:04 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-07-13 23:33:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:33:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2024-07-13 23:33:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2024-07-13 23:33:22 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:33:22 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 13084 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:33:22 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:33:22 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:33:22 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:33:22 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:33:22 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:33:23 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:33:23 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:33:23 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:33:24 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:33:24 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:33:24 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:33:24 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:33:24 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:33:24 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1084 ms
+2024-07-13 23:33:24 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:33:24 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:33:24 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:33:24 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:33:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-13 23:33:24 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50d973e0
+2024-07-13 23:33:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-13 23:33:25 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:33:25 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:33:25 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:33:25 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:33:25 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:33:25 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:33:25 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:33:26 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:33:26 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:33:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:33:26 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.192 seconds (process running for 5.096)
+2024-07-13 23:33:26 DEBUG com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:33:26 DEBUG com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:34:34 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-07-13 23:34:34 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:34:34 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:34:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:34:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-13 23:34:35 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 13084 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:34:35 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:34:35 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:34:35 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:34:35 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:34:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:34:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:34:35 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:34:35 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:34:35 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:34:35 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:34:35 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:34:35 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 305 ms
+2024-07-13 23:34:35 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:34:35 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:34:35 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:34:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-07-13 23:34:35 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@3e9f9f27
+2024-07-13 23:34:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-07-13 23:34:35 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:35 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:34:35 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:34:35 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:34:35 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:34:35 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:34:35 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:34:36 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:34:36 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:34:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:34:36 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 1.072 seconds (process running for 74.743)
+2024-07-13 23:34:36 DEBUG com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:34:36 DEBUG com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:34:36 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-07-13 23:34:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:34:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-07-13 23:34:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-07-13 23:34:40 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:34:40 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 13860 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:34:40 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:34:40 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:34:40 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:34:40 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:34:40 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:34:40 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:34:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:34:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:34:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:34:41 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:34:41 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:34:41 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:34:41 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:34:41 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1086 ms
+2024-07-13 23:34:41 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:34:41 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:34:42 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:34:42 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:34:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-13 23:34:42 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@44edbaa4
+2024-07-13 23:34:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-13 23:34:43 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:34:43 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:34:43 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:34:43 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:34:43 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:34:43 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:34:43 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:34:44 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:34:44 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:34:44 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:34:44 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.075 seconds (process running for 4.567)
+2024-07-13 23:34:44 DEBUG com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:34:44 DEBUG com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:35:52 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:35:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:35:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-13 23:35:53 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:35:53 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 14369 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:35:53 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:35:53 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:35:53 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:35:53 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:35:54 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:35:54 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:35:55 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:35:55 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:35:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:35:55 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:35:55 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:35:55 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:35:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:35:55 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1084 ms
+2024-07-13 23:35:55 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:35:55 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:35:55 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:35:55 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:35:55 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-13 23:35:55 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@99621e0
+2024-07-13 23:35:55 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-13 23:35:56 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:35:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:35:56 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:35:57 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:35:57 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:35:57 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:35:57 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:35:57 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:35:57 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:35:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:35:57 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.077 seconds (process running for 4.639)
+2024-07-13 23:35:57 DEBUG com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:35:58 DEBUG com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:40:23 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:40:23 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:40:23 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-13 23:40:26 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:40:26 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 16076 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:40:26 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:40:26 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:40:27 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:40:27 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:40:27 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:40:27 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:40:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:40:28 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:40:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:40:28 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:40:28 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:40:28 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:40:28 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:40:28 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1076 ms
+2024-07-13 23:40:28 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:40:28 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:40:28 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:40:28 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:40:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-13 23:40:29 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@cc58831
+2024-07-13 23:40:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-13 23:40:29 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:29 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:40:29 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:40:30 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:40:30 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:40:30 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:40:30 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:40:30 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:40:30 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:40:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:40:30 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.339 seconds (process running for 5.231)
+2024-07-13 23:40:30 DEBUG com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:40:31 DEBUG com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:40:51 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:40:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:40:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-13 23:40:53 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:40:53 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 16452 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:40:53 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:40:53 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:40:53 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:40:53 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:40:53 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:40:54 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:40:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:40:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:40:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:40:55 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:40:55 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:40:55 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:40:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:40:55 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1088 ms
+2024-07-13 23:40:55 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:40:55 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:40:55 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:40:55 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:40:55 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-13 23:40:55 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a8a6870
+2024-07-13 23:40:55 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-13 23:40:56 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:40:56 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:40:56 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:40:56 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:40:56 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:40:56 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:40:57 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:40:57 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:40:57 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:40:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:40:57 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.081 seconds (process running for 4.602)
+2024-07-13 23:40:57 DEBUG com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:40:57 DEBUG com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:42:32 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:42:32 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:42:32 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-13 23:42:34 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 16874 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:42:34 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:42:34 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:42:37 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:42:38 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.081 seconds (process running for 4.585)
+2024-07-13 23:42:38 DEBUG com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:42:38 DEBUG com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:43:16 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 16874 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:43:16 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:43:16 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:43:16 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:43:16 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 0.941 seconds (process running for 43.038)
+2024-07-13 23:43:16 DEBUG com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:43:17 DEBUG com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:44:01 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:44:01 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 17777 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:44:01 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:44:01 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:44:01 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:44:01 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:44:02 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:44:02 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:44:02 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:44:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:44:03 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:44:03 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:44:03 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:44:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:44:03 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1098 ms
+2024-07-13 23:44:03 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:44:03 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:44:03 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:44:03 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:44:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-13 23:44:03 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a10ebe3
+2024-07-13 23:44:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-13 23:44:04 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:44:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:44:04 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:44:05 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:44:05 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:44:05 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:44:05 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:44:05 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:44:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:44:05 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.046 seconds (process running for 4.554)
+2024-07-13 23:46:17 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-07-13 23:46:17 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:46:17 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:46:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:46:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-13 23:46:17 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 17777 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:46:17 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:46:17 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:46:17 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:46:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:46:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:46:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:46:17 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:46:17 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:46:17 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:46:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:46:17 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 309 ms
+2024-07-13 23:46:17 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:46:17 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:46:17 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:46:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-07-13 23:46:17 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@74673ba3
+2024-07-13 23:46:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-07-13 23:46:17 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:17 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:46:18 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:46:18 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:46:18 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:46:18 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:46:18 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:46:18 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:46:18 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:46:18 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 1.049 seconds (process running for 137.289)
+2024-07-13 23:46:18 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-07-13 23:46:34 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:46:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-07-13 23:46:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-07-13 23:46:36 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:46:36 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:46:36 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:46:36 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:46:36 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:46:37 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:46:37 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:46:37 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:46:37 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:46:37 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:46:37 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:46:37 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:46:37 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1075 ms
+2024-07-13 23:46:38 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:46:38 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:46:38 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:46:38 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:46:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-13 23:46:38 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54f0fa8f
+2024-07-13 23:46:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-13 23:46:39 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:46:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:46:39 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:46:39 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:46:39 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:46:39 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:46:40 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:46:40 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:46:40 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:47:00 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:47:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:47:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-13 23:47:02 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:47:02 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:47:02 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:47:02 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:47:02 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:47:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:47:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:47:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:47:03 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:47:03 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:47:03 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:47:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:47:03 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1072 ms
+2024-07-13 23:47:03 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:47:03 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:47:03 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:47:04 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:47:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-13 23:47:04 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@44d582ae
+2024-07-13 23:47:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-13 23:47:04 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:47:04 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:47:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:47:05 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:47:05 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:47:05 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:47:05 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:47:05 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:47:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:48:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:48:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:48:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-13 23:48:07 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-13 23:48:07 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-13 23:48:07 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-13 23:48:07 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file '/home/salman/IdeaProjects/MFI2/compose.yaml'
+2024-07-13 23:48:07 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - There are already Docker Compose services running, skipping startup
+2024-07-13 23:48:08 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-13 23:48:08 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+2024-07-13 23:48:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-13 23:48:08 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:48:08 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-13 23:48:08 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-13 23:48:08 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-13 23:48:08 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1083 ms
+2024-07-13 23:48:08 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-13 23:48:08 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-13 23:48:08 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-13 23:48:08 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-13 23:48:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-13 23:48:09 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@439dcc8
+2024-07-13 23:48:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-13 23:48:09 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "admin" does not exist, skipping
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "client" does not exist, skipping
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "producer" does not exist, skipping
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "_user" does not exist, skipping
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "admin" does not exist, skipping
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "client" does not exist, skipping
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "producer" does not exist, skipping
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-07-13 23:48:09 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - sequence "_user_seq" does not exist, skipping
+2024-07-13 23:48:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:48:10 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-07-13 23:48:10 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-07-13 23:48:10 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-13 23:48:10 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-13 23:48:10 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-13 23:48:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-13 23:48:48 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-13 23:48:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-13 23:48:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:53:26.754 [restartedMain] [34mINFO [0;39m [36mc.a.m.Mfi2Application[0;39m - Starting Mfi2Application using Java 17.0.11 with PID 21971 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2) 
+23:53:26.755 [restartedMain] [39mDEBUG[0;39m [36mc.a.m.Mfi2Application[0;39m - Running with Spring Boot v3.3.1, Spring v6.1.10 
+23:53:26.756 [restartedMain] [34mINFO [0;39m [36mc.a.m.Mfi2Application[0;39m - No active profile set, falling back to 1 default profile: "default" 
+23:53:29.835 [restartedMain] [39mDEBUG[0;39m [36mc.a.m.c.JwtAuthFilter[0;39m - Filter 'jwtAuthFilter' configured for use 
+23:53:30.431 [restartedMain] [34mINFO [0;39m [36mc.a.m.Mfi2Application[0;39m - Started Mfi2Application in 4.041 seconds (process running for 4.527) 
+23:53:30.434 [restartedMain] [31mWARN [0;39m [36mc.a.m.f.UserInit[0;39m - Starting data initialization... 
+23:53:30.815 [restartedMain] [31mWARN [0;39m [36mc.a.m.f.UserInit[0;39m - Registered user successfully 
+2024-07-13 23:54:23 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 21971 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:54:23 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:54:23 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:54:24 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:54:24 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 0.932 seconds (process running for 59.006)
+2024-07-13 23:54:24 WARN  com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:54:25 WARN  com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:55:32 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 22877 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:55:32 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:55:32 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:55:35 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:55:36 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.147 seconds (process running for 4.582)
+2024-07-13 23:55:36 INFO  com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:55:36 INFO  com.app.mfi2.fixture.UserInit - Registered user successfully
+2024-07-13 23:58:16 INFO  com.app.mfi2.Mfi2Application - Starting Mfi2Application using Java 17.0.11 with PID 23830 (/home/salman/IdeaProjects/MFI2/build/classes/java/main started by salman in /home/salman/IdeaProjects/MFI2)
+2024-07-13 23:58:16 DEBUG com.app.mfi2.Mfi2Application - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-13 23:58:16 INFO  com.app.mfi2.Mfi2Application - No active profile set, falling back to 1 default profile: "default"
+2024-07-13 23:58:19 DEBUG com.app.mfi2.config.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2024-07-13 23:58:20 INFO  com.app.mfi2.Mfi2Application - Started Mfi2Application in 4.108 seconds (process running for 4.604)
+2024-07-13 23:58:20 INFO  com.app.mfi2.fixture.UserInit - Starting data initialization...
+2024-07-13 23:58:20 INFO  com.app.mfi2.fixture.UserInit - Registered user successfully
