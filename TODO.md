@@ -1,12 +1,16 @@
 - [ ] ajouter majuscule Nom et prénom
-- [x] login
 - [x] créer un compte user
 - [x] init admin, client et producteur
-- [x] CRUD USER (tester)
-- [x] ajouter siret azu producteur
-- [ ] CRUD product
+- [x] ajouter siret au producteur
+
+- [x] CRUD product(tester)
+- [ ] fixture product
+
 - [ ] créer panier
 - [ ] créer item
+
+- [x] login (tester)
+- [x] CRUD USER (tester)
 
 **Fonctionnalités pour les producteurs :**
 
@@ -22,10 +26,13 @@
 - Passer des commandes.
 - Visualiser les commandes passées.
 
-
 **Fonctionnalités pour l'admin**
-- valider un producteur 
+
+- valider un producteur
 - [x] supprimer ou ban un user
-- [x] liste user 
-- & producer 
+- [x] liste user
+- & producer
 - & product
+
+
+- [ ] maj README.md

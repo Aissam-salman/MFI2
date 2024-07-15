@@ -5,8 +5,6 @@
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %highlight(%-5level) %cyan(%logger{15}) - %msg %n</pattern>
         </encoder>
-        <logger name="com.app.mfi2" level="DEBUG"/>
-        <logger name="com.app.mfi2" level="WARN"/>
     </appender>
 
     <!-- Rolling File Appender for all logs -->
@@ -23,7 +21,7 @@
 
     <!-- Root Logger configuration -->
     <root level="INFO">
-        <appender-ref ref="STDERR" />
+        <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
     </root>
 
