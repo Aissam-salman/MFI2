@@ -12,6 +12,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.List;
 
+/**
+ * The type User.
+ */
 @Data
 @SuperBuilder
 @NoArgsConstructor
@@ -34,6 +37,15 @@ abstract public class User implements UserDetails {
     @Enumerated(EnumType.STRING)
     private Role role;
 
+    /**
+     * Instantiates a new User.
+     *
+     * @param firstname the firstname
+     * @param lastname  the lastname
+     * @param email     the email
+     * @param password  the password
+     * @param role      the role
+     */
     public User(String firstname, String lastname, String email, String password, Role role) {
         this.firstname = firstname;
         this.lastname = lastname;
@@ -75,5 +87,16 @@ abstract public class User implements UserDetails {
     @Override
     public boolean isEnabled() {
         return true;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", email='" + email + '\'' +
+                ", role=" + role +
+                '}';
     }
 }

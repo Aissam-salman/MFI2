@@ -9,9 +9,13 @@ import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+/**
+ * The type Product service.
+ */
 @Service
 @RequiredArgsConstructor
 public class ProductService {
@@ -19,14 +23,34 @@ public class ProductService {
     private final ProductRepository productRepository;
     private final UserService userService;
 
+    /**
+     * Find all list.
+     *
+     * @return the list
+     */
+    @Transactional(readOnly = true)
     public List<Product> findAll() {
         return productRepository.findAll();
     }
 
+    /**
+     * Find by id product.
+     *
+     * @param id the id
+     * @return the product
+     */
+    @Transactional(readOnly = true)
     public Product findById(Long id) {
         return productRepository.findById(id).orElse(null);
     }
 
+    /**
+     * Save product.
+     *
+     * @param productDto the product dto
+     * @return the product
+     */
+    @Transactional
     public Product save(ProductDto productDto) {
         Product pr = Product.builder()
                 .name(productDto.getName())
@@ -38,6 +62,14 @@ public class ProductService {
         return productRepository.save(pr);
     }
 
+    /**
+     * Update product.
+     *
+     * @param productId  the product id
+     * @param productDto the product dto
+     * @return the product
+     */
+    @Transactional
     public Product update(Long productId, ProductDto productDto) {
         Product prod = findById(productId);
         if (prod == null) {
@@ -59,6 +91,13 @@ public class ProductService {
         return productRepository.save(prod);
     }
 
+    /**
+     * Delete boolean.
+     *
+     * @param id the id
+     * @return the boolean
+     */
+    @Transactional
     public boolean delete(Long id) {
         try {
             productRepository.deleteById(id);

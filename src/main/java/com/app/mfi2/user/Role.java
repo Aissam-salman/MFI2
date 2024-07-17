@@ -1,5 +1,19 @@
 package com.app.mfi2.user;
 
+/**
+ * The enum Role.
+ */
 public enum Role {
-    CLIENT,ADMIN,PRODUCER
+    /**
+     * Client role.
+     */
+    CLIENT,
+    /**
+     * Admin role.
+     */
+    ADMIN,
+    /**
+     * Producer role.
+     */
+    PRODUCER
 }

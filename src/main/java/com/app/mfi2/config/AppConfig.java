@@ -14,17 +14,30 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+/**
+ * The type App config.
+ */
 @Configuration
 @RequiredArgsConstructor
 public class AppConfig {
 
     private final UserRepository userRepository;
 
+    /**
+     * User details service user details service.
+     *
+     * @return the user details service
+     */
     @Bean
     public UserDetailsService userDetailsService() {
         return username -> userRepository.findByEmail(username).orElseThrow(() -> new UsernameNotFoundException(username));
     }
 
+    /**
+     * Authentication provider authentication provider.
+     *
+     * @return the authentication provider
+     */
     @Bean
     public AuthenticationProvider authenticationProvider() {
         DaoAuthenticationProvider authenticationProvider = new DaoAuthenticationProvider();
@@ -33,16 +46,33 @@ public class AppConfig {
         return authenticationProvider;
     }
 
+    /**
+     * Model mapper model mapper.
+     *
+     * @return the model mapper
+     */
     @Bean
     public ModelMapper modelMapper() {
         return new ModelMapper();
     }
 
+    /**
+     * Password encoder password encoder.
+     *
+     * @return the password encoder
+     */
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
 
+    /**
+     * Authentication manager authentication manager.
+     *
+     * @param config the config
+     * @return the authentication manager
+     * @throws Exception the exception
+     */
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
         return config.getAuthenticationManager();

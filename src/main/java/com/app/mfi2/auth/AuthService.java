@@ -4,10 +4,7 @@ import com.app.mfi2.auth.dto.AuthenticationRequest;
 import com.app.mfi2.auth.dto.AuthentificationResponse;
 import com.app.mfi2.auth.dto.RegisterRequest;
 import com.app.mfi2.config.JwtService;
-import com.app.mfi2.user.model.Admin;
-import com.app.mfi2.user.model.Client;
-import com.app.mfi2.user.model.Producer;
-import com.app.mfi2.user.model.User;
+import com.app.mfi2.user.model.*;
 import com.app.mfi2.user.repository.AdminRepository;
 import com.app.mfi2.user.repository.ClientRepository;
 import com.app.mfi2.user.repository.ProducerRepository;
@@ -21,6 +18,9 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.Optional;
 
+/**
+ * The type Auth service.
+ */
 @Service
 @RequiredArgsConstructor
 public class AuthService {
@@ -33,6 +33,13 @@ public class AuthService {
     private final ClientRepository clientRepository;
     private final ProducerRepository producerRepository;
 
+    /**
+     * Register authentification response.
+     *
+     * @param request the request
+     * @return the authentification response
+     * @throws Exception the exception
+     */
     public AuthentificationResponse register(RegisterRequest request) throws Exception {
         if (request.getRole() == null) {
             return null;
@@ -60,6 +67,7 @@ public class AuthService {
                     .password(passwordEncoder.encode(request.getPassword()))
                     .role(request.getRole())
                     .siret(request.getSiret())
+                    .status(EProducerStatus.NEW)
                     .build();
         };
 
@@ -74,6 +82,13 @@ public class AuthService {
                 .build();
     }
 
+    /**
+     * Authenticate authentification response.
+     *
+     * @param request the request
+     * @return the authentification response
+     * @throws Exception the exception
+     */
     public AuthentificationResponse authenticate(AuthenticationRequest request) throws Exception {
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(request.getEmail(), request.getPassword())

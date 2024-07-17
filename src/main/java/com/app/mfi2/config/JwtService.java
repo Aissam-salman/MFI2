@@ -18,21 +18,55 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
+/**
+ * The type Jwt service.
+ */
 @Service
 public class JwtService {
+    /**
+     * Extract username string.
+     *
+     * @param token the token
+     * @return the string
+     * @throws Exception the exception
+     */
     public String extractUsername(String token) throws Exception {
         return extractClaim(token, Claims::getSubject);
     }
 
+    /**
+     * Extract claim t.
+     *
+     * @param <T>            the type parameter
+     * @param token          the token
+     * @param claimsResolver the claims resolver
+     * @return the t
+     * @throws Exception the exception
+     */
     public <T> T extractClaim(String token, Function<Claims, T> claimsResolver) throws Exception {
         final Claims claims = extractAllClaims(token);
         return claimsResolver.apply(claims);
     }
 
+    /**
+     * Generate token string.
+     *
+     * @param userDetails the user details
+     * @return the string
+     * @throws Exception the exception
+     */
     public String generateToken(UserDetails userDetails) throws Exception {
         return generateToken(new HashMap<>(), userDetails);
     }
 
+    /**
+     * Generate token string.
+     *
+     * @param extraClaims the extra claims
+     * @param userDetails the user details
+     * @return the string
+     * @throws Exception the exception
+     */
     public String generateToken(Map<String, Object> extraClaims, UserDetails userDetails) throws Exception {
         return Jwts
                 .builder()
@@ -44,6 +78,14 @@ public class JwtService {
                 .compact();
     }
 
+    /**
+     * Is token valid boolean.
+     *
+     * @param token       the token
+     * @param userDetails the user details
+     * @return the boolean
+     * @throws Exception the exception
+     */
     public boolean isTokenValid(String token, UserDetails userDetails) throws Exception {
         final String username = extractUsername(token);
         return (username.equals(userDetails.getUsername()) && !isTokenExpired(token));

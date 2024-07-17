@@ -1,15 +1,22 @@
 package com.app.mfi2.user.model;
 
 import com.app.mfi2.model.Product;
-import com.app.mfi2.user.Role;
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.PrimaryKeyJoinColumn;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
-import lombok.*;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 import java.util.List;
 
+/**
+ * The type Producer.
+ */
 @EqualsAndHashCode(callSuper = true)
 @Entity
 @Data
@@ -24,4 +31,13 @@ public class Producer extends User {
 
     @OneToMany(mappedBy = "producerOwner")
     private List<Product> products;
+
+    private EProducerStatus status;
+
+    @Override
+    public String toString() {
+        return "Producer{" +
+                "siret='" + siret + '\'' +
+                '}';
+    }
 }

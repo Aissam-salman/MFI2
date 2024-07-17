@@ -8,6 +8,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
+/**
+ * The type Product.
+ */
 @Entity
 @SuperBuilder
 @Data
@@ -24,4 +27,14 @@ public class Product {
     @ManyToOne
     @JoinColumn(name = "producer_id")
     private Producer producerOwner;
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }

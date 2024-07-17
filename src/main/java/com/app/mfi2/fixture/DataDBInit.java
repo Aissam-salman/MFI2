@@ -2,8 +2,10 @@ package com.app.mfi2.fixture;
 
 import com.app.mfi2.auth.AuthService;
 import com.app.mfi2.auth.dto.RegisterRequest;
+import com.app.mfi2.model.ECartStatus;
 import com.app.mfi2.model.Product;
 import com.app.mfi2.repository.ProductRepository;
+import com.app.mfi2.service.CartService;
 import com.app.mfi2.service.ProductService;
 import com.app.mfi2.user.Role;
 import com.app.mfi2.user.model.Admin;
@@ -18,6 +20,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+/**
+ * The type Data db init.
+ */
 @Component
 @AllArgsConstructor
 public class DataDBInit implements CommandLineRunner {
@@ -26,12 +31,14 @@ public class DataDBInit implements CommandLineRunner {
     private final UserService userService;
     private final ProductService productService;
     private final ProductRepository productRepository;
+    private final CartService cartService;
 
     @Override
     public void run(String... args) throws Exception {
         logger.info("\uD83C\uDFC1  Starting data initialization...");
         initUser();
         initProduct();
+        initCart();
     }
 
     private void initUser() throws Exception {
@@ -89,5 +96,18 @@ public class DataDBInit implements CommandLineRunner {
         productRepository.save(product1);
         productRepository.save(product2);
         logger.info("Registered product successfully ✅");
+    }
+
+    private void initCart() {
+        logger.info("Initializing cart \uD83C\uDF47");
+        logger.info(">> add 3 Banana \uD83C\uDF4C");
+        cartService.addItemToCart(3L, 1L, 2);
+        logger.info(">> add 5 Pomme \uD83C\uDF4E");
+        cartService.addItemToCart(3L, 2L, 5);
+        logger.info(">> add 2 Kiwi \uD83E\uDD5D");
+        cartService.addItemToCart(3L, 3L, 2);
+        logger.info("Registered cart successfully ✅");
+        cartService.changeStatus(3L, ECartStatus.VALIDATE);
+        logger.info("Cart status: VALIDATE \uD83D\uDED2");
     }
 }

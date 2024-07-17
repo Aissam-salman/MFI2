@@ -7,8 +7,16 @@ import java.security.KeyPairGenerator;
 import java.security.PrivateKey;
 import java.security.PublicKey;
 
+/**
+ * The type Key generator util.
+ */
 public class KeyGeneratorUtil {
-     public static void generateAndStoreKeys() throws Exception {
+    /**
+     * Generate and store keys.
+     *
+     * @throws Exception the exception
+     */
+    public static void generateAndStoreKeys() throws Exception {
         KeyPairGenerator keyGen = KeyPairGenerator.getInstance("EC");
         keyGen.initialize(256);
         KeyPair keyPair = keyGen.generateKeyPair();
@@ -22,7 +30,12 @@ public class KeyGeneratorUtil {
         // Store the public key
         Files.write(Paths.get("publicKey.key"), publicKey.getEncoded());
     }
-    
+
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         try {
             generateAndStoreKeys();
