@@ -32,6 +32,11 @@ jobs:
         run: |
           cp build/libs/MFI2-0.0.1-SNAPSHOT.jar ./
 
+      # Nouvelle étape : ajouter l'hôte EC2 aux known_hosts
+      - name: Add EC2 host to known_hosts
+        run: |
+          ssh-keyscan -H ${{ secrets.EC2_HOST }} >> ~/.ssh/known_hosts
+
       # Nouvelle étape : déploiement sur EC2
       - name: Deploy to EC2
         env:
@@ -41,7 +46,7 @@ jobs:
         run: |
           echo "${{ secrets.EC2_SSH_KEY }}" > ec2_key.pem
           chmod 600 ec2_key.pem
-          scp -i ec2_key.pem Dockerfile docker-compose.yaml MFI2-0.0.1-SNAPSHOT.jar $EC2_USER@$EC2_HOST:~
+          scp -i ec2_key.pem Dockerfile compose.yaml MFI2-0.0.1-SNAPSHOT.jar $EC2_USER@$EC2_HOST:~
           ssh -i ec2_key.pem $EC2_USER@$EC2_HOST << 'EOF'
             cd /home/$EC2_USER/
             docker-compose down
