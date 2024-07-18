@@ -2,7 +2,7 @@
 FROM openjdk:17-jdk-slim
 
 # Définir l'emplacement du fichier JAR de l'application
-ARG JAR_FILE=build/libs/MFI2-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE=MFI2-0.0.1-SNAPSHOT.jar
 COPY ${JAR_FILE} app.jar
 
 # Exposer le port sur lequel l'application sera accessible
