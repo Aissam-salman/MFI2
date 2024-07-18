@@ -7,7 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -32,7 +31,7 @@ public class Order {
     private Date date;
 
     @OneToMany(cascade = CascadeType.ALL)
-    private List<Item> items = new ArrayList<>();
+    private List<Item> items;
     private double totalPrice;
 
     @Override

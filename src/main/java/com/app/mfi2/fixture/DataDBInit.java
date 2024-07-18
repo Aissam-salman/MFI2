@@ -12,6 +12,7 @@ import com.app.mfi2.user.model.Admin;
 import com.app.mfi2.user.model.Client;
 import com.app.mfi2.user.model.Producer;
 import com.app.mfi2.user.model.User;
+import com.app.mfi2.user.repository.ProducerRepository;
 import com.app.mfi2.user.service.UserService;
 import com.app.mfi2.utils.MapperDTO;
 import lombok.AllArgsConstructor;
@@ -32,6 +33,7 @@ public class DataDBInit implements CommandLineRunner {
     private final ProductService productService;
     private final ProductRepository productRepository;
     private final CartService cartService;
+    private final ProducerRepository producerRepository;
 
     @Override
     public void run(String... args) throws Exception {
@@ -44,6 +46,7 @@ public class DataDBInit implements CommandLineRunner {
     private void initUser() throws Exception {
         logger.info("Initializing user  \uD83E\uDEF5");
         User admin = Admin.builder()
+                .id(1L)
                 .firstname("lamjadab")
                 .lastname("salman")
                 .email("salman@gmail.com")
@@ -51,6 +54,7 @@ public class DataDBInit implements CommandLineRunner {
                 .role(Role.ADMIN)
                 .build();
         User producer = Producer.builder()
+                .id(2L)
                 .firstname("Produ")
                 .lastname("cer")
                 .email("producer@gmail")
@@ -59,6 +63,7 @@ public class DataDBInit implements CommandLineRunner {
                 .siret("123456789")
                 .build();
         User client = Client.builder()
+                .id(3L)
                 .firstname("cli")
                 .lastname("clicli")
                 .email("cli@gmail.com")
@@ -74,23 +79,28 @@ public class DataDBInit implements CommandLineRunner {
 
     private void initProduct() {
         logger.info("Initializing product \uD83C\uDF47");
+
+        User producerData = userService.getUserById(2L);
+
+        Producer producer = MapperDTO.convertToDto(producerData, Producer.class);
+
         Product product = Product.builder()
                 .name("Banana")
                 .description("Culture bananier au soleil")
                 .price(1.99)
-                .producerOwner((Producer) userService.getUserById(2L))
+                .producerOwner(producer)
                 .build();
         Product product1 = Product.builder()
                 .name("Pomme")
                 .description("Champs unique à la plage")
                 .price(2.89)
-                .producerOwner((Producer) userService.getUserById(2L))
+                .producerOwner(producer)
                 .build();
         Product product2 = Product.builder()
                 .name("Kiwi")
                 .description("Couleur jaune unique avec un gout sucré")
                 .price(4.79)
-                .producerOwner((Producer) userService.getUserById(2L))
+                .producerOwner(producer)
                 .build();
         productRepository.save(product);
         productRepository.save(product1);
