@@ -35,6 +35,7 @@ jobs:
       # Nouvelle étape : ajouter l'hôte EC2 aux known_hosts
       - name: Add EC2 host to known_hosts
         run: |
+          mkdir -p ~/.ssh
           ssh-keyscan -H ${{ secrets.EC2_HOST }} >> ~/.ssh/known_hosts
 
       # Nouvelle étape : déploiement sur EC2
