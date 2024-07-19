@@ -3521,3 +3521,34 @@ Unconditional classes:
 2024-07-18 10:22:18 DEBUG o.s.boot.devtools.restart.Restarter - Immediately restarting application
 2024-07-18 10:22:18 DEBUG o.s.boot.devtools.restart.Restarter - Starting application com.app.mfi2.Mfi2Application with URLs [file:/home/salman/IdeaProjects/MFI2/build/classes/java/main/, file:/home/salman/IdeaProjects/MFI2/build/resources/main/]
 2024-07-18 10:22:18 DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-07-18 10:23:06 DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-07-18 10:23:06 DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1933117, started on Thu Jul 18 10:22:13 CEST 2024
+2024-07-18 10:23:06 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - alter table if exists _order drop constraint if exists FKtbl0ku55ry9oer644mwgf5oxr
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - alter table if exists _order_items drop constraint if exists FKsko098f8w7u31glaft0sx0fxk
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - alter table if exists _order_items drop constraint if exists FK4lclydi8qyrb296t9t3tdjq1f
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - alter table if exists admin drop constraint if exists FKomgkxy9t9r6n277qfbhhckxrp
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - alter table if exists cart drop constraint if exists FK6ycuj5rglff1ml1pdpuw5kf82
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - alter table if exists cart_items drop constraint if exists FKbgmrxyvqs3kxt1im75fde3psy
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - alter table if exists cart_items drop constraint if exists FK99e0am9jpriwxcm6is7xfedy3
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - alter table if exists client drop constraint if exists FKksnnly16o8nnnic4m2mfa1rl7
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - alter table if exists item drop constraint if exists FKd1g72rrhgq1sf7m4uwfvuhlhe
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - alter table if exists producer drop constraint if exists FKgbm7pyy9iyoudmvd02kocgg2q
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - alter table if exists product drop constraint if exists FKaxeo9fj1sfah36yd9bujs8qft
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop table if exists _order cascade
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop table if exists _order_items cascade
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop table if exists _user cascade
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop table if exists admin cascade
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop table if exists cart cascade
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop table if exists cart_items cascade
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop table if exists client cascade
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop table if exists item cascade
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop table if exists producer cascade
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop table if exists product cascade
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop sequence if exists _order_seq
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop sequence if exists _user_seq
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop sequence if exists cart_seq
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop sequence if exists item_seq
+2024-07-18 10:23:06 DEBUG org.hibernate.SQL - drop sequence if exists product_seq
+2024-07-18 10:23:06 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-18 10:23:06 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

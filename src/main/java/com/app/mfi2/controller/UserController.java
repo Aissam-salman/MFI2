@@ -22,7 +22,7 @@ import java.util.List;
  * The type User controller.
  */
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/api/v1/users")
 @RequiredArgsConstructor
 @Tag(name = "Users", description = "API gestion utilisateurs")
 @CrossOrigin(value = "*")
