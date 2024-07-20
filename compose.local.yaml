@@ -1,0 +1,29 @@
+services:
+  db:
+    image: postgres:14-alpine
+    container_name: db_mfi2_local
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: salman
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: market
+    volumes:
+      - pgdata_mfi2_local:/var/lib/postgresql/data
+#  app:
+#    container_name: app-spring
+#    build: .
+#    ports:
+#      - "8080:8080"
+#    environment:
+#      SPRING_PROFILES_ACTIVE: prod
+#      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/market
+#      SPRING_DATASOURCE_USERNAME: salman
+#      SPRING_DATASOURCE_PASSWORD: secret
+#    depends_on:
+#      db:
+#        condition: service_healthy
+
+volumes:
+  pgdata_mfi2_local:
