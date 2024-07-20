@@ -59,19 +59,19 @@ jobs:
             cd ~
           
             echo "Arrêt des conteneurs existants"
-            sudo docker compose down || true
+            docker compose down || true
             echo "Conteneurs arrêtés"
           
             echo "Construction et démarrage des nouveaux conteneurs"
-            sudo docker compose up --build -d
+            docker compose up --build -d
             echo "Nouveaux conteneurs démarrés"
           
             echo "Liste des conteneurs en cours d'exécution"
-            sudo docker ps
+            docker ps
           
             echo "Journal des conteneurs"
-            sudo docker logs db_mfi2
-            sudo docker logs app-spring
+            docker logs db_mfi2
+            docker logs app-spring
           EOF
           echo "Script SSH terminé"
 
