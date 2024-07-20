@@ -65,13 +65,6 @@ jobs:
             echo "Construction et démarrage des nouveaux conteneurs"
             docker compose up --build -d
             echo "Nouveaux conteneurs démarrés"
-          
-            echo "Liste des conteneurs en cours d'exécution"
-            docker ps
-          
-            echo "Journal des conteneurs"
-            docker logs db_mfi2
-            docker logs app-spring
           EOF
           echo "Script SSH terminé"
 
