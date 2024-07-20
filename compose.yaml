@@ -20,11 +20,9 @@ services:
   app:
     container_name: app-spring
     build: .
-    ports:
-      - "8080:8080"
     environment:
       SPRING_PROFILES_ACTIVE: prod
-      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5433/market
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/market
       SPRING_DATASOURCE_USERNAME: salman
       SPRING_DATASOURCE_PASSWORD: secret
     depends_on:
