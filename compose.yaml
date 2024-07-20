@@ -21,6 +21,7 @@ services:
     container_name: app-spring
     build: .
     ports:
+      - "8080:8080"
       - "443:443"
     environment:
       SPRING_PROFILES_ACTIVE: prod
