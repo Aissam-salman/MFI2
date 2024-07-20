@@ -45,14 +45,35 @@ jobs:
           EC2_USER: ${{ secrets.EC2_USER }}
           EC2_SSH_KEY: ${{ secrets.EC2_SSH_KEY }}
         run: |
+          echo "Début du déploiement sur EC2"
           echo "${{ secrets.EC2_SSH_KEY }}" > ec2_key.pem
           chmod 600 ec2_key.pem
+
+          echo "Transfert des fichiers vers l'instance EC2"
           scp -i ec2_key.pem Dockerfile compose.yaml MFI2-0.0.1-SNAPSHOT.jar $EC2_USER@$EC2_HOST:~
+          echo "Transfert terminé"
+
+          echo "Connexion à l'instance EC2 et redémarrage de l'application Docker"
           ssh -i ec2_key.pem $EC2_USER@$EC2_HOST << 'EOF'
-            cd ~  && 
-            sudo docker compose down &&
+            echo "Naviguer vers le répertoire de travail"
+            cd ~
+          
+            echo "Arrêt des conteneurs existants"
+            sudo docker compose down || true
+            echo "Conteneurs arrêtés"
+          
+            echo "Construction et démarrage des nouveaux conteneurs"
             sudo docker compose up --build -d
+            echo "Nouveaux conteneurs démarrés"
+          
+            echo "Liste des conteneurs en cours d'exécution"
+            sudo docker ps
+          
+            echo "Journal des conteneurs"
+            sudo docker logs db_mfi2
+            sudo docker logs app-spring
           EOF
+          echo "Script SSH terminé"
 
   dependency-submission:
 
