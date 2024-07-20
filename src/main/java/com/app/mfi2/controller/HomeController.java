@@ -19,7 +19,7 @@ public class HomeController {
     @GetMapping
     @ResponseBody
     public String Home() {
-        return "Hello World!";
+        return "Hello to the server!";
     }
 
 

@@ -50,7 +50,7 @@ jobs:
           scp -i ec2_key.pem Dockerfile compose.prod.yaml MFI2-0.0.1-SNAPSHOT.jar $EC2_USER@$EC2_HOST:~
           ssh -i ec2_key.pem $EC2_USER@$EC2_HOST << 'EOF'
             cd ~
-            docker compose down || true
+            docker compose down 
             docker compose -f compose.prod.yaml up --build -d
           EOF
 
