@@ -51,6 +51,7 @@ jobs:
 
           echo "Transfert des fichiers vers l'instance EC2"
           scp -i ec2_key.pem Dockerfile nginx compose.yaml MFI2-0.0.1-SNAPSHOT.jar $EC2_USER@$EC2_HOST:~
+          scp -i ec2_key.pem -r ./nginx $EC2_USER@$EC2_HOST:~
           echo "Transfert terminé"
 
           echo "Connexion à l'instance EC2 et redémarrage de l'application Docker"
