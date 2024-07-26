@@ -2,11 +2,14 @@ package com.app.mfi2.controller;
 
 import com.app.mfi2.dto.ProductDto;
 import com.app.mfi2.model.Product;
+import com.app.mfi2.repository.ItemRepository;
+import com.app.mfi2.service.CartService;
 import com.app.mfi2.service.ProductService;
 import com.app.mfi2.utils.MapperDTO;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,6 +25,8 @@ import java.util.List;
 @CrossOrigin(value = "*")
 public class ProductController {
     private final ProductService productService;
+    private final CartService cartService;
+    private final ItemRepository itemRepository;
 
     /**
      * Gets all products.
@@ -98,11 +103,14 @@ public class ProductController {
     @DeleteMapping("/{id}")
     @ResponseBody
     @Operation(summary = "Supprimer un produit selon son Id")
-    public ResponseEntity<ProductDto> deleteProduct(@PathVariable Long id) {
-        boolean success = productService.delete(id);
-        if (success) {
-            return ResponseEntity.noContent().build();
+    public ResponseEntity<?> deleteProduct(@PathVariable Long id) {
+        try {
+            productService.delete(id);
+            return ResponseEntity.ok().build();
+        } catch (DataIntegrityViolationException e) {
+            return ResponseEntity.status(409).body("Cannot delete product as it is referenced by other items.");
+        } catch (Exception e) {
+            return ResponseEntity.status(500).body("An error occurred while deleting the product.");
         }
-        return ResponseEntity.notFound().build();
     }
 }

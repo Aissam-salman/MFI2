@@ -26,6 +26,12 @@ public enum Role {
         this.value = value;
     }
 
+    /**
+     * From value role.
+     *
+     * @param value the value
+     * @return the role
+     */
     @JsonCreator
     public static Role fromValue(int value) {
         for (Role role : Role.values()) {
@@ -36,6 +42,11 @@ public enum Role {
         throw new IllegalArgumentException("Invalid role value: " + value);
     }
 
+    /**
+     * Gets value.
+     *
+     * @return the value
+     */
     @JsonValue
     public int getValue() {
         return value;

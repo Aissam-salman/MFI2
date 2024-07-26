@@ -88,6 +88,13 @@ public class UserService {
         }
     }
 
+    /**
+     * Update status producer authentification response.
+     *
+     * @param userId the user id
+     * @param status the status
+     * @return the authentification response
+     */
     public AuthentificationResponse updateStatusProducer(Long userId, EProducerStatus status) {
         try {
             User user = getUserById(userId);

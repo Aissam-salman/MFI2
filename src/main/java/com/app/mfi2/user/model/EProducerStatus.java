@@ -1,5 +1,23 @@
 package com.app.mfi2.user.model;
 
+/**
+ * The enum E producer status.
+ */
 public enum EProducerStatus {
-    NEW, STAND_BY, VALIDATE, REFUSED
+    /**
+     * New e producer status.
+     */
+    NEW,
+    /**
+     * Stand by e producer status.
+     */
+    STAND_BY,
+    /**
+     * Validate e producer status.
+     */
+    VALIDATE,
+    /**
+     * Refused e producer status.
+     */
+    REFUSED
 }

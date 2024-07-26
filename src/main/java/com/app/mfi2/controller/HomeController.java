@@ -14,6 +14,11 @@ import org.springframework.web.bind.annotation.*;
 @Tag(name = "Users", description = "API gestion utilisateurs")
 @CrossOrigin(value = "*")
 public class HomeController {
+    /**
+     * Home string.
+     *
+     * @return the string
+     */
     @GetMapping
     @ResponseBody
     public String Home() {

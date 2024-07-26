@@ -2,6 +2,7 @@ package com.app.mfi2.service;
 
 import com.app.mfi2.dto.ProductDto;
 import com.app.mfi2.model.Product;
+import com.app.mfi2.repository.ItemRepository;
 import com.app.mfi2.repository.ProductRepository;
 import com.app.mfi2.user.model.Producer;
 import com.app.mfi2.user.service.UserService;
@@ -22,6 +23,7 @@ public class ProductService {
     private static final Logger logger = LoggerFactory.getLogger(ProductService.class);
     private final ProductRepository productRepository;
     private final UserService userService;
+    private final ItemRepository itemRepository;
 
     /**
      * Find all list.
@@ -95,17 +97,15 @@ public class ProductService {
      * Delete boolean.
      *
      * @param id the id
-     * @return the boolean
      */
     @Transactional
-    public boolean delete(Long id) {
+    public void delete(Long id) {
         try {
-            productRepository.deleteById(id);
-            return true;
+            productRepository.deleteProductById(id);
         } catch (Exception e) {
             logger.error(e.getMessage());
-            return false;
         }
 
     }
+
 }

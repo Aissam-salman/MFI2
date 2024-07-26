@@ -30,7 +30,7 @@ public class Order {
 
     private Date date;
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany
     private List<Item> items;
     private double totalPrice;
 

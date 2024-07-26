@@ -6,6 +6,7 @@ import com.app.mfi2.model.ECartStatus;
 import com.app.mfi2.model.Item;
 import com.app.mfi2.model.Product;
 import com.app.mfi2.repository.CartRepository;
+import com.app.mfi2.repository.ItemRepository;
 import com.app.mfi2.repository.ProductRepository;
 import com.app.mfi2.user.model.Client;
 import com.app.mfi2.user.model.User;
@@ -31,6 +32,7 @@ public class CartService {
     private final CartRepository cartRepository;
     private final ProductRepository productRepository;
     private final UserRepository userRepository;
+    private final ItemRepository itemRepository;
 
     /**
      * Search cart by ClientId and create item to add in cart, finally save in DB
@@ -64,6 +66,7 @@ public class CartService {
         Item item = Item.builder()
                 .product(product)
                 .quantity(quantity)
+                .cart(cart)
                 .build();
 
         cart.addItem(item);
@@ -150,6 +153,17 @@ public class CartService {
         }
         cart.setStatus(status);
         return cartRepository.save(cart);
+    }
+
+    /**
+     * Gets cart items.
+     *
+     * @param productId the product id
+     * @return the cart items
+     */
+    @Transactional(readOnly = true)
+    public List<Item> getItemsByProductId(Long productId) {
+        return itemRepository.findItemByProductId(productId);
     }
 
     /**
