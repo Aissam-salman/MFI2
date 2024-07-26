@@ -17,18 +17,18 @@ services:
       retries: 5
       start_period: 30s
       timeout: 20s
-  app:
-    container_name: app-spring
-    build: .
-    ports:
-      - "8080:8080"
-    environment:
-      SPRING_PROFILES_ACTIVE: prod
-      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/market
-      SPRING_DATASOURCE_USERNAME: salman
-      SPRING_DATASOURCE_PASSWORD: secret
-    depends_on:
-      db:
-        condition: service_healthy
+#  app:
+#    container_name: app-spring
+#    build: .
+#    ports:
+#      - "8080:8080"
+#    environment:
+#      SPRING_PROFILES_ACTIVE: prod
+#      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/market
+#      SPRING_DATASOURCE_USERNAME: salman
+#      SPRING_DATASOURCE_PASSWORD: secret
+#    depends_on:
+#      db:
+#        condition: service_healthy
 volumes:
   pgdata_mfi2:

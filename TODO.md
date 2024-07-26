@@ -34,21 +34,22 @@
 **Fonctionnalités pour les producteurs :**
 
 - [x] Créer un compte producteur.
-- [x] Ajouter, modifier et supprimer des produits.
-- [x] Visualiser les commandes passées par les clients.
+- [ ] Ajouter, modifier et supprimer des produits.
+- [ ] limiter l'ajout et modif, supp pr le producteur et admin
+- [ ] Visualiser les commandes passées par les clients.
 
 **Fonctionnalités pour les clients :**
 
 - [x] Créer un compte client.
-- [x] Parcourir la liste des produits.
-- [x] Ajouter des produits au panier.
-- [x] Passer des commandes.
-- [x] Visualiser les commandes passées.
+- [ ] Parcourir la liste des produits.
+- [ ] Ajouter des produits au panier.
+- [ ] Passer des commandes.
+- [ ] Visualiser les commandes passées.
 
 **Fonctionnalités pour l'admin**
 
-- [x] valider un producteur
-- [x] supprimer ou ban un user
+- [ ] valider un producteur
+- [ ] supprimer ou ban un user
 - [x] liste user
 - & producer
 - & product
